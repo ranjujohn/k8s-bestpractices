@@ -18,6 +18,7 @@ This is prepared based on a standard Kubeadm cluster.
   - [Enable Audit logging](https://kubernetes.io/docs/tasks/debug-application-cluster/audit/) 
   - [Enable secret encryption at rest](https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/)
   - Use RBAC to manage the [authorization](https://kubernetes.io/docs/reference/access-authn-authz/authorization/)
+  - Use OpenID (OIDC) tokens as a user authentication strategy
   - Minimise access to secrets using RBAC
   - Restrict control plane scheduling (Default allowd on a Kubeadm Cluster) - Kyverno can do this
   - Allow only known container registries - Kyverno or OPA can be used for this
